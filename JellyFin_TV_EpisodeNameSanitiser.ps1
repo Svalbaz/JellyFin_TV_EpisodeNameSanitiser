@@ -48,5 +48,5 @@ if ($unmatchedFiles.Count -gt 0) {
     Write-Host "`nUnmatched Files:" -ForegroundColor Cyan
     $unmatchedFiles | Sort-Object | ForEach-Object { Write-Host " - $_" -ForegroundColor Red }
 } else {
-    Write-Host "`n✅ All files matched successfully!" -ForegroundColor Green
+    Write-Host "`n✅ All files matched successfully!" -ForegroundColor Green # Let's use Emojis, it's 2025
 }
